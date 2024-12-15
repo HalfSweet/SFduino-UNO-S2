@@ -1415,12 +1415,6 @@
 		(uuid "417bc57d-56c3-4b85-be13-ad2c08cf8af1")
 	)
 	(junction
-		(at 62.23 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c250694-78dc-40fb-9af0-56c9be8b7f00")
-	)
-	(junction
 		(at 96.52 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1443,6 +1437,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90e400cf-eddc-48a7-9fe1-ae1294546c85")
+	)
+	(junction
+		(at 62.23 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b22d125-e86e-49a8-936a-48bd851d0a95")
 	)
 	(junction
 		(at 90.17 30.48)
@@ -1674,7 +1674,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 33.02) (xy 62.23 31.75)
+			(xy 62.23 30.48) (xy 62.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +1694,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 27.94) (xy 62.23 31.75)
+			(xy 62.23 27.94) (xy 62.23 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2024,7 +2024,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 31.75) (xy 66.04 31.75)
+			(xy 62.23 30.48) (xy 66.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2122,16 +2122,17 @@
 		)
 		(uuid "ed9f991b-672c-4e81-8a43-b11807192b67")
 	)
-	(label "PA_EN"
-		(at 66.04 31.75 0)
+	(hierarchical_label "PA_EN"
+		(shape input)
+		(at 66.04 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "48b6901f-7f1c-40ed-b96e-e42fa5bd9c4b")
+		(uuid "194d5b75-1f79-4de2-be0b-b951eeaa3d8d")
 	)
 	(hierarchical_label "DACP"
 		(shape input)

@@ -4472,9 +4472,9 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_SPDT"
+		(symbol "Switch:SW_SPDT_321"
 			(pin_names
-				(offset 0) hide)
+				(offset 1) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4486,7 +4486,7 @@
 					)
 				)
 			)
-			(property "Value" "SW_SPDT"
+			(property "Value" "SW_SPDT_321"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -4495,7 +4495,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4530,7 +4530,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_SPDT_0_1"
+			(symbol "SW_SPDT_321_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.4572)
@@ -4577,7 +4577,7 @@
 					)
 				)
 			)
-			(symbol "SW_SPDT_1_1"
+			(symbol "SW_SPDT_321_1_1"
 				(rectangle
 					(start -3.175 3.81)
 					(end 3.175 -3.81)
@@ -4590,9 +4590,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 2.54 180)
+					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "A"
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4626,9 +4626,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "C"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6052,6 +6052,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 134.62) (xy 62.23 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "156b5a4c-149c-4073-b6c6-689177eeb4f9")
+	)
+	(wire
+		(pts
 			(xy 179.07 63.5) (xy 191.77 63.5)
 		)
 		(stroke
@@ -6192,7 +6202,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 171.45) (xy 154.94 173.99)
+			(xy 142.24 171.45) (xy 142.24 173.99)
 		)
 		(stroke
 			(width 0)
@@ -6559,6 +6569,16 @@
 			(type default)
 		)
 		(uuid "502fd1aa-94ff-4197-a3f0-fc68c2d2b90d")
+	)
+	(wire
+		(pts
+			(xy 165.1 176.53) (xy 163.83 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f7977e-3421-4ece-bbe1-69b47f5c51f7")
 	)
 	(wire
 		(pts
@@ -7122,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 179.07) (xy 154.94 179.07)
+			(xy 144.78 179.07) (xy 142.24 179.07)
 		)
 		(stroke
 			(width 0)
@@ -7242,7 +7262,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 179.07) (xy 154.94 181.61)
+			(xy 142.24 179.07) (xy 142.24 181.61)
 		)
 		(stroke
 			(width 0)
@@ -7722,7 +7742,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 173.99) (xy 154.94 173.99)
+			(xy 144.78 173.99) (xy 142.24 173.99)
 		)
 		(stroke
 			(width 0)
@@ -8012,7 +8032,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 176.53) (xy 168.91 176.53)
+			(xy 154.94 176.53) (xy 156.21 176.53)
 		)
 		(stroke
 			(width 0)
@@ -8706,6 +8726,17 @@
 		)
 		(uuid "3debcc1b-4677-451c-8161-9581374e3b08")
 	)
+	(label "RF2"
+		(at 100.33 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40db2f6b-916b-4660-9ec4-258180dfaad6")
+	)
 	(label "DISPLAY_D4"
 		(at 17.78 165.1 0)
 		(fields_autoplaced yes)
@@ -8794,6 +8825,17 @@
 		)
 		(uuid "4dc5853f-1b92-43ff-bb86-a77fc2644c54")
 	)
+	(label "PA9"
+		(at 62.23 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5103d9d8-0beb-4d8e-a2b1-ace614589326")
+	)
 	(label "PA44"
 		(at 224.79 91.44 0)
 		(fields_autoplaced yes)
@@ -8816,6 +8858,17 @@
 		)
 		(uuid "53ae160c-9d03-433c-b3c8-6d7089850d8d")
 	)
+	(label "RF1"
+		(at 100.33 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5422ac05-7e36-4d41-a5ee-89de2f1a98a1")
+	)
 	(label "DACN"
 		(at 193.04 130.81 0)
 		(fields_autoplaced yes)
@@ -8826,17 +8879,6 @@
 			(justify left bottom)
 		)
 		(uuid "5599c1e7-a8e7-4dcb-aedb-16046ad14df4")
-	)
-	(label "RF_CTRL"
-		(at 168.91 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "55d2c9de-22b8-43c9-beea-c26e6b72a38c")
 	)
 	(label "PA9"
 		(at 62.23 48.26 0)
@@ -8970,17 +9012,6 @@
 		)
 		(uuid "71314eb3-5ee7-45dd-9c34-48b719aa4ea5")
 	)
-	(label "RF2"
-		(at 100.33 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "75c6d130-0dea-454a-9f49-298cde13c7a5")
-	)
 	(label "EN"
 		(at 13.97 48.26 0)
 		(fields_autoplaced yes)
@@ -9079,17 +9110,6 @@
 			(justify left bottom)
 		)
 		(uuid "7afea4b1-3dd5-491f-9687-a168404d8f21")
-	)
-	(label "RF1"
-		(at 100.33 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b7fe581-249d-4717-b90c-e6d8518b5bd7")
 	)
 	(label "PA44"
 		(at 62.23 60.96 0)
@@ -9277,6 +9297,17 @@
 			(justify left bottom)
 		)
 		(uuid "a7fe3aac-03bd-4c84-b8bc-6856c5cdfa2f")
+	)
+	(label "RF_CTRL"
+		(at 165.1 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a9f80fd2-48ee-4506-9f37-e4b77245bd66")
 	)
 	(label "DISPLAY_D8"
 		(at 17.78 175.26 0)
@@ -10258,7 +10289,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 181.61 0)
+		(at 142.24 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10266,7 +10297,7 @@
 		(dnp no)
 		(uuid "28f66676-ed27-449f-9d3c-abdbbf83e1d6")
 		(property "Reference" "#PWR095"
-			(at 154.94 187.96 0)
+			(at 142.24 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10275,7 +10306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 185.166 0)
+			(at 142.24 185.166 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10283,7 +10314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 181.61 0)
+			(at 142.24 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10292,7 +10323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 181.61 0)
+			(at 142.24 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10301,7 +10332,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 181.61 0)
+			(at 142.24 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12038,6 +12069,73 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 160.02 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90c8cd12-d2ea-404d-8732-5d3f64019390")
+		(property "Reference" "R3"
+			(at 160.02 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 160.02 174.498 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 160.02 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec044636-fa82-4532-8a1a-f9722e952a4d")
+		)
+		(pin "2"
+			(uuid "fe7b93d3-84d8-4690-8400-ca1d13b8ed53")
+		)
+		(instances
+			(project "SFduino-UNO-S2"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 205.74 120.65 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13052,79 +13150,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPDT")
-		(at 162.56 176.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "beb0acd5-9ae5-4478-9f9d-da9144ca09c4")
-		(property "Reference" "SW2"
-			(at 162.56 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPDT"
-			(at 162.56 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 162.56 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4aece405-7d3c-4a1d-8b7a-d6f53472c42b")
-		)
-		(pin "3"
-			(uuid "7ccf5695-2938-40bf-b210-781ba12cf31f")
-		)
-		(pin "2"
-			(uuid "221f5117-efdf-4598-8953-06cb4355acec")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VD")
-		(at 154.94 171.45 0)
+		(at 142.24 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13132,7 +13159,7 @@
 		(dnp no)
 		(uuid "bf5f33ac-3230-4b9d-89b3-fb067cde3b89")
 		(property "Reference" "#PWR096"
-			(at 154.94 175.26 0)
+			(at 142.24 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13141,7 +13168,7 @@
 			)
 		)
 		(property "Value" "VDD33_1"
-			(at 154.94 168.148 0)
+			(at 142.24 168.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13149,7 +13176,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 171.45 0)
+			(at 142.24 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13158,7 +13185,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 171.45 0)
+			(at 142.24 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13167,7 +13194,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VD\""
-			(at 154.94 171.45 0)
+			(at 142.24 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13313,6 +13340,77 @@
 			(project "SFduino-UNO-S2"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT_321")
+		(at 149.86 176.53 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8294433-bdc0-42b8-829d-792126dae9d6")
+		(property "Reference" "SW2"
+			(at 149.86 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK-3293S"
+			(at 149.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "My Switch:SW-SMD_SK-3293S_mini_7P"
+			(at 149.86 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 149.86 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cba58eb0-26ea-4685-8cd7-07310e02bf44")
+		)
+		(pin "2"
+			(uuid "ff87d61a-40a2-446d-81a2-2dc94af78423")
+		)
+		(pin "1"
+			(uuid "2ec2b880-da87-48ab-8d1d-4c2069479fc7")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -14349,6 +14447,16 @@
 				(justify right)
 			)
 			(uuid "e936322a-53af-4e6b-80ae-07b0dd80ecc2")
+		)
+		(pin "PA_EN" input
+			(at 59.69 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fe5657e4-19d8-4de3-b981-b3b24320fcfa")
 		)
 		(instances
 			(project "SFduino-UNO-S2"
